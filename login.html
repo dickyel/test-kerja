@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frontend - Lumut</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/690cd723d8.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!-- header navbar -->
+    <div class="header-nav">
+        <nav class="navbar navbar-expand-lg navbar-light p-4 px-md-4 mb-3">
+          <div class="container">
+            <a class="navbar-brand" href="#">
+                Lumut
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggler"
+              aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarToggler">
+                <div class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item" style="display: flex">
+                          <a class="nav-link mx-md-4 active" aria-current="page" href="#">Beranda</a>
+                        </li>
+                        <li class="nav-item" style="display: flex">
+                            <a class="nav-link mx-md-4" href="#">Tentang</a>
+                        </li>
+                        <li class="nav-item" style="display: flex">
+                          <a class="nav-link mx-md-4" href="#">Kontak</a>
+                        </li>
+                        <li class="nav-item" style="display: flex">
+                            <a class="nav-link mx-md-4" href="#">Dashboard</a>
+                        </li>
+                        <li class="nav-item" style="display: flex">
+                          <a class="nav-link mx-md-4" href="#">Login</a>
+                        </li>
+                        
+                        
+                    </ul>
+                </div>
+            </div>
+          </div>
+        </nav>
+    </div>
+   
+    <div class="login" >
+        <div class="container-xxl main mx-auto row">
+          <!-- Left Column -->
+          <div
+            class="col-lg-6 col-12 p-xxl-0 d-flex flex-column align-items-start justify-content-center text-start mb-5 lg:mb-lg-0">
+            <h1 class="title-font">Have any project ?
+            </h1>
+            <p class="caption-text">
+              We are happy if you are interested in <br class="d-sm-block d-none"> our project, please let us
+              know by filling <br class="d-sm-block d-none"> in the form
+            </p>
+          </div>
+          <!-- Right Column -->
+          <div class="col-lg-6 col-12 p-xxl-0">
+            <div class=" card-item d-flex flex-column ">
+              <form action="" method="">
+                <div class="position-relative mb-3">
+                  <label for="full-name" class="label">Name</label>
+                  <input type="text" id="full-name" name="full-name" class="w-100 bg-white input">
+                </div>
+                <div class="position-relative mb-3">
+                  <label for="email" class="label">Email</label>
+                  <input type="text" id="email" name="email" class="w-100 bg-white input">
+                </div>
+                <div class="position-relative mb-3">
+                  <label for="messages" class="label">Messages</label>
+  
+                  <textarea type="text" id="messages" name="messages" cols="10" rows="3"
+                    class="w-100 bg-white input"></textarea>
+                </div>
+                <div class="d-flex">
+                  <button type="submit" class="btn btn-send ms-auto text-white">Send</button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+    </div>
+  
+    <!-- script -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

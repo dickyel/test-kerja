@@ -1,0 +1,270 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Poppins:ital,wght@0,100;0,200;0,300;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    
+    font-family: 'Inter', sans-serif;
+    background-color: #ffffff;
+    width: 100%;
+}
+
+.header-nav .navbar-light .navbar-nav .nav-link {
+    color: #092a33;
+}
+
+.header-nav .navbar-light .navbar-brand{
+    font-weight: bold;
+    font-size: 24px;
+    color: #0DDB93;
+}
+
+.header-nav .navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .nav-link:hover {
+    font-weight: bold;
+    color: #0ddb91 !important;
+    border-bottom: 1px solid #001D01;
+    transition: 0.3s;
+}
+
+.header-nav .navbar-light .navbar-nav .nav-link {
+    color: #1b1b1b;
+    transition: 0.3s;
+}
+
+.header-nav .user-nav {
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+/* about */
+
+.about {
+    background: #FFFFFF;
+}
+
+.about .content {
+    padding-top:15px;
+    padding-bottom: 90px;
+}
+
+.about .content .tagline {
+    
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 27px;
+ 
+    color: #DB0D70;
+}
+
+.about .content .headline {
+    
+    font-style: normal;
+    font-weight: bold;
+    font-size: 45px;
+    line-height: 67px;
+    color: #111F37;
+}
+
+.about .content .button-header {
+    margin-top: 20px;
+}
+
+.about .content .button-header .btn-integrate {
+    width: 150px;
+    height: 50px;
+    background: #0DDB93;
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 16px;
+    color: #111F37;
+}
+
+.about .content .button-header .btn-integrate:hover{
+    background-color: #FFFFFF;
+}
+
+/* brand */
+
+.brand .caption-description {
+    font-size: 1rem;
+    line-height: 1.5rem;
+    color: #323232;
+}
+
+.brand .caption-title {
+ 
+    padding-top: 1.25rem;
+    padding-bottom: 0.5rem;
+    color: #111F37;
+    font-weight: bold;
+}
+
+.brandi {
+    color: #0ddb91;
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+
+.brand .brand img {
+    width: 200px !important;
+}
+
+/* footer */
+ footer {
+    background: #090A0D;
+    padding-top: 80px;
+    padding-bottom: 56px;
+}
+
+@media screen and (max-width: 768px) {
+     footer {
+        padding-top: 60px;
+    }
+}
+
+ footer h5 {
+    size: 16px !important;
+    line-height: 150%;
+    color: #ECF1F4;
+}
+
+ footer .logo a {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 60px;
+    /* identical to box height */
+    letter-spacing: -0.02em;
+    color: #FFFFFF !important;
+    text-decoration: none;
+}
+
+ footer .logo .tagline {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
+    /* or 175% */
+    color: #A4A7B1;
+}
+
+ footer .nav-footer p {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    /* identical to box height */
+    margin-bottom: 24px;
+    color: #F46612;
+}
+
+ footer .nav-footer a {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 27px;
+    /* identical to box height */
+    text-decoration: none;
+    color: #A4A7B1;
+}
+
+ footer li {
+    margin-bottom: 16px;
+}
+
+ footer .copyright {
+    margin-top: 58px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
+    /* identical to box height, or 175% */
+    color: #A4A7B1;
+}
+
+/* login */
+.login .title-font {
+    font: 800 3rem/1.25 'Inter', sans-serif;
+    margin-bottom: 2rem;
+    letter-spacing: -0.025em;
+    color: #113873;
+  }
+
+  .login .caption-text {
+    font-size: 1rem;
+    line-height: 1.5rem;
+    letter-spacing: 0.05em;
+    line-height: 2rem;
+    margin-bottom: 1.5rem;
+    color: #6681A9;
+  }
+
+  .login .card-item {
+    padding: 4rem 3.5rem;
+    background-color: #D8E7FF;
+  }
+
+  .login .btn-send {
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+    border-radius: 999px;
+    padding: 1rem 3.5rem;
+    background-color: #0343E5;
+    transition: 0.3s;
+  }
+
+  .login .btn-send:hover {
+    background-color: #195AFF;
+    transition: 0.3s;
+  }
+
+  .login .main {
+    padding: 3rem 2rem 3.5rem;
+  }
+
+  .login .label {
+    font-size: 1rem;
+    line-height: 1.75rem;
+  }
+
+  .login .input {
+    border: none;
+    margin-top: 0.5rem;
+    font-size: 1rem;
+    line-height: 2rem;
+    padding: 0.25rem 0.75rem;
+  }
+
+  @media (min-width: 576px) {
+    .login .title-font {
+      font: 800 3.75rem/1.25 'Inter', sans-serif;
+    }
+  }
+
+  @media (min-width: 768px) {
+    .login .main {
+      padding: 3rem 4rem 3.5rem;
+    }
+  }
+
+  @media (min-width: 992px) {
+    .login {
+      background-image: url("http://api.elements.buildwithangga.com/storage/files/2/assets/Content/Content7/Content-7-12.png");
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+    }
+
+    .login .main {
+      padding: 2.25rem 7rem 3.5rem;
+    }
+
+    .login .caption-text {
+      margin-bottom: 5rem;
+    }
+  }
